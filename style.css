@@ -1,0 +1,54 @@
+body {
+    background: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+
+}
+
+form {
+    width: 500px;
+    border: 2px solid black;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input {
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 9px;
+}
+label{
+    color: darkorange;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.button{
+float: right;
+color: chocolate;
+padding: 10px 15px;
+background: rgb(246, 231, 231);
+border-radius: 9px;
+
+
+}
+.button:hover{
+opacity: .6;
+}
+
+}
